@@ -1,0 +1,123 @@
+// scss文件示例内容
+
+.nut-button{
+    background: var(--primary-color);
+    color: white;
+    border-radius: 5px !important;
+    span {font-size: 0.4rem !important;}
+}
+
+.nut-dialog-btn:only-child {
+    color: var(--primary-color);
+    font-size: 0.47rem;
+}
+.nut-textinput-disabled input {
+    color: #000 ;
+}
+
+.cell-input-warp {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsla(0,0%,94.1%,.5);
+    .nut-textinput-label {
+        width: 1.5rem;
+        font-weight: 500;
+    }
+    input {
+    font-size: 0.4rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    height: 1rem;
+      width: 6.85rem;
+      border: 0px !important;
+    }
+    input:disabled {
+        background-color: transparent;
+    }
+}
+
+.nut-actionsheet-cancel, .nut-actionsheet-item {
+    box-sizing: content-box;
+}
+
+.p-searchAndOptions {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+#input-form {
+    margin-right: 0px !important;
+}
+.search-input {
+    margin-right: 0px !important;
+    input {
+        height: 100%;
+    }
+}
+textarea::-webkit-input-placeholder {
+    font-size: 0.4rem;
+    color: #999 !important;
+}
+input::-webkit-input-placeholder {
+    font-size: 0.4rem;
+    color: #999 !important;
+}
+.nut-icon-search {
+    color: #999 !important;
+}
+
+.active {
+    background-color: var(--primary-color) !important;
+   
+}
+.swiper-pagination-bullet {
+    width: 0.6rem !important;
+    height: 0.1rem !important;
+    border-radius: 3px !important;
+}
+
+.nut-imagepicker .img-list .add-icon {
+    border-color: var(--primary-color);;
+}
+
+.nut-imagepicker .img-list .add-icon i {
+    color: var(--primary-color);
+}
+
+.nut-button.actived {
+    background: rgba(240, 37, 15, 0.05);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.nut-button.gray {
+    background: #ccc;
+    color: #fff;
+}
+.nut-textbox .txt-area textarea {
+    min-height: 2.5rem !important;
+}
+
+.nut-dialog-ok:active {
+    background: var(--primary-color) !important;
+    color: #fff !important;
+}
+
+.load-more {
+    display: none !important;
+}
+
+.nut-textinput input {
+   
+}
+
+.nut-swiper {
+    height: unset !important;
+    min-height: 200px;
+}

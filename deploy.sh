@@ -1,0 +1,1 @@
+scp  -rp !(node_modules)  Users/huanchen/Project/out/vote/vote_frontend/ root@47.115.123.136:/alidata1/taopiao/vote_frontend/

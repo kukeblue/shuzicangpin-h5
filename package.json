@@ -1,0 +1,46 @@
+{
+  "name": "vote_frontend",
+  "version": "1.0.0",
+  "description": "My unreal Nuxt.js project",
+  "author": "richard1015",
+  "private": true,
+  "scripts": {
+    "server": "npm run build_server && pm2 start ecosystem.config.js --only ciyuandao-h5-prod",
+    "server_test": "npm run build && pm2 start ecosystem.config.js --only ciyuandao-h5-test",
+    "gulp-rename": "^1.4.0",
+    "dev": "nuxt",
+    "gulp": "gulp dev",
+    "build": "nuxt build",
+    "build_server": "nuxt build --config-file ./nuxt.prod_config.js",
+    "start": "nuxt start --config-file ./nuxt.config.js",
+    "start_server": "nuxt start --config-file ./nuxt.prod_config.js",
+    "deploy": "ssh root@39.108.99.149 'cd /alidata1/vote_frontend;git pull; yarn server_test'",
+    "deploy-prod-1": "ssh root@47.115.123.136 'cd /taopiao/vote_frontend;git pull; yarn server'",
+    "generate": "nuxt generate"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3001"
+    }
+  },
+  "dependencies": {
+    "@nutui/babel-plugin-separate-import": "^1.2.2",
+    "@nutui/nutui": "^2.2.11",
+    "@nuxtjs/axios": "^5.12.2",
+    "axios": "^0.20.0",
+    "form-data": "^3.0.0",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.14.6",
+    "postcss-px2rem": "^0.3.0",
+    "qs": "^6.9.4",
+    "sass-loader": "^8.0.2",
+    "vue-router": "^3.0.7"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
