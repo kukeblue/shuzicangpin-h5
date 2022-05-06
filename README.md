@@ -21,27 +21,10 @@ BEM 的意思是 块(Block)、元素(Element)、修饰符(Modifier)，其基本�
 
 ## 部署
 
-开发服务器
-ssh root@39.108.99.149
-
-线上服务器
-主 ：  47.113.95.246         
-从  ： 47.115.123.136
-要求 ： 安装 nuxt 运行环境
-然后下载 代码 到 /alidata1/taopiao 目录下 （下载代码只需在 47.113.95.246 这台进行，已经设置了自动同步。。会自动同步到从服务器）
-
-
-
-
 一 、安装node环境
 1.  curl --silent --location https://rpm.nodesource.com/setup_12.x | sudo bash -
 2.sudo yum -y install nodejs
 3.node -v
-
-二、拷贝代码
-git config credential.helper store
-1.cd  /alidata1/taopiao;  git clone https://github.com/kukeblue/vote_frontend.git
-2.cd vote_frontend; -> npm install yarn -g; -> yarn
 
 三、安装pm2  -> npm install -g pm2
 
