@@ -1,7 +1,7 @@
 <template>
     <div class="download-page">
 
-        <img class="logo" src='/images/download/logo.jpg'></img>
+        <img class="logo" src='/images/download/logo.jpg'>
         <div class="content ">
             <div class="title">
                 <p>次元岛数藏</p>
@@ -14,7 +14,7 @@
                 <p>来次元岛数藏数字藏品平台，</p>
                 <p> 发现您喜欢的数字藏品。</p>
             </div>
-            <img class="ciyuandao" src='/images/download/ciyuandao.png'></img>
+            <img class="ciyuandao" src='/images/download/ciyuandao.png'>
             <div class="download-button">
                 立即下载
             </div>
