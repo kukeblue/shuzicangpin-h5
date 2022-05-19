@@ -1,6 +1,5 @@
 <template>
     <div class="download-page">
-
         <img class="logo" src='/images/download/logo.jpg'>
         <div class="content ">
             <div class="title">
@@ -21,7 +20,6 @@
         </div>
     </div>
 </template>
-
 <script>
 export default {
     layout: "noLoginLayout", // you can set a custom layout for the error page
@@ -36,7 +34,7 @@ export default {
 .download-page {
     background: url('/images/download/background.jpg');
     background-size: 100% 100%;
-  height: calc(100vh);
+    height: calc(100vh);
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -46,8 +44,6 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-
     .logo {
         border-radius: 1rem;
         width: 3.5rem;
@@ -55,41 +51,34 @@ export default {
         text-align: center;
         margin: 0 0 1rem 0;
     }
-
     .content {
         width: 100%;
         height: 100%;
-        
         flex-direction: column;
         display: flex;
         align-self: flex-start;
-
         .title {
             color: rgba(120, 239, 241, 1);
             font-size: 0.8rem;
             letter-spacing: 0.05rem
         }
-
         .subtitle {
             margin: 0.8rem 0 0 0;
             color: rgba(255, 255, 255, 1);
             font-size: 0.5rem;
         }
-
         .smalltitle {
             margin: 2em 0 0 0;
             color: rgba(148, 148, 148, 1);
             font-size: 0.35rem;
             line-height: 0.5rem;
         }
-
         .ciyuandao {
             width: 3.0rem;
             height: 0.85rem;
             text-align: center;
             margin: 3rem 0 0.2rem 0;
         }
-
         .download-button {
             margin: 1em 0 0 0;
             display: flex;

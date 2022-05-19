@@ -16,8 +16,6 @@
                     </div>
                     <p class="date-active"> 今日 </p>
                 </div>
-
-
                 <div class="sigin-card">
                     <div class="card">
                         <img src="/images/signin/moguo.png" class="card-moguo">
@@ -158,12 +156,10 @@ export default {
     align-items: center;
     background-color: rgb(255, 144, 0);
     height: calc(100vh);
-
     .moguo {
         width: 0.4rem;
         height: 0.4rem;
     }
-
     .signIn-block {
         background-color: white;
         margin: 0.5rem 0.3rem 0.5rem 0.3rem;
@@ -173,7 +169,6 @@ export default {
         padding: 0.2rem 0.3rem 0.2rem 0.3rem;
         display: flex;
         flex-direction: column;
-
         .first-row {
             display: flex;
             flex-direction: row;
@@ -182,45 +177,36 @@ export default {
             font-size: 0.4rem;
             height: 1rem;
             color: rgb(126, 126, 126);
-
             .info {
                 height: 2rem;
                 display: flex;
                 flex-direction: row;
-
                 .number {
                     font-size: 0.45rem;
                     color: black;
                     font-weight: bold;
                     margin-left: 0.1rem;
                 }
-
                 .moguo-block {
                     margin-top: 0.05rem;
                 }
             }
         }
-
         .card-row {
             display: flex;
             flex-direction: row;
-
             .sigin-card {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
                 .date {
                     font-size: 0.35rem;
                     color: rgba(67, 67, 67, 1);
                 }
-
                 .date-active {
                     font-size: 0.35rem;
-                   
                     color: rgba(204, 20, 20, 1);
                 }
-
                 .card {
                     width: 1.4rem;
                     height: 2rem;
@@ -232,20 +218,17 @@ export default {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-
                     .card-moguo {
                         width: 0.9rem;
                         height: 0.9rem;
                         margin-bottom: 0.1rem;
                     }
-
                     .add-num {
                         color: rgba(187, 53, 0, 1);
                         font-size: 0.4rem;
                         font-weight: bold;
                     }
                 }
-
                 .card-unactive {
                     width: 1.4rem;
                     height: 2rem;
@@ -257,13 +240,11 @@ export default {
                     justify-content: center;
                     align-items: center;
                     margin-bottom: 0.1rem;
-
                     .card-moguo-unactive {
                         width: 0.9rem;
                         height: 0.9rem;
                         margin-bottom: 0.1rem;
                     }
-
                     .add-num-unactive {
                         color: rgba(142, 142, 140, 1);
                         font-size: 0.4rem;
@@ -272,7 +253,6 @@ export default {
                 }
             }
         }
-
         .signin-button {
             margin: 1em 0 0 0;
             display: flex;
@@ -283,14 +263,10 @@ export default {
             align-self: center;
             background-color: RGBA(237, 237, 237, 1);
             border-radius: 1rem;
-
             color: rgba(187, 53, 0, 1);
             font-size: 0.4rem;
         }
-
-
     }
-
     .task-block {
         background-color: white;
         margin: 0.2rem 0.1rem 0.5rem 0.1rem;
@@ -301,7 +277,6 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-
         .taskrow {
             width: 9rem;
             display: flex;
@@ -309,7 +284,6 @@ export default {
             justify-content: space-between;
             align-items: center;
             margin-top: 0.2rem;
-
             .task-button {
                 display: flex;
                 align-items: center;
@@ -363,18 +337,15 @@ export default {
             background-color: rgba(246, 246, 246, 1);
             margin-top: 0.2rem;
         }
-
         .title-row {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: row;
-
             .line {
                 width: 1.5rem;
                 height: 0.15rem;
             }
-
             .title {
                 font-size: 0.45rem;
                 margin: 0 0.3rem 0 0.3rem;

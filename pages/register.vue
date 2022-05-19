@@ -62,6 +62,7 @@ export default {
     padding: 0;
     background-color: #333;
     height: calc(100vh);
+    background-image: linear-gradient(90deg, #292B2B, #1E2020);
     .app {
         width: 100%;
         height: 100%;
@@ -74,22 +75,18 @@ export default {
             margin: 0.8rem auto 0;
             margin-bottom: 2rem;
         }
-
         .logon {
-            width: 91.6%;
+            width: 89%;
             margin: 0.55rem auto 0.35rem;
-
             .form-box {
                 width: 100%;
                 overflow: hidden;
                 /* background-color: #fff; */
                 border-radius: 15px;
-
                 .form-item {
                     width: 100%;
                     height: 1.2rem;
                     margin-bottom: 0.5rem;
-
                     .download-submit {
                         display: flex;
                         flex-direction: column;
@@ -105,7 +102,6 @@ export default {
                         background-size: 100% 100%;
                     }
                 }
-
                 .submit {
                     width: 100%;
                     height: 100%;
@@ -119,7 +115,6 @@ export default {
                     color: #B5B6BD;
                     background: #505252;
                 }
-
                 input {
                     border:none;
                     width: 95%;
@@ -131,23 +126,19 @@ export default {
                     color: #ffffff;
                 }
             }
-
             .form-code {
                 display: flex;
                 justify-content: space-around;
-
                 .code {
                     margin-left: 0.5rem;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    width: 32%;
+                    width: 34%;
                     height: 100%;
-
                     vertical-align: center;
                     text-align: center;
                     font-size: 0.14rem;
-
                     border-radius: 0.5rem;
                     color: #1E2020;
                     background: linear-gradient(90deg, #F7AAF0, #0FF8EE);
