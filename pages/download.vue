@@ -36,7 +36,7 @@ export default {
 .download-page {
     background: url('/images/download/background.jpg');
     background-size: 100% 100%;
-  
+  height: calc(100vh);
     width: 100%;
     height: 100%;
     overflow: auto;

@@ -6,7 +6,6 @@
                 <div class="form-box">
                     <div class="form-item"> <input type="tel" name="phone" autocomplete="off" placeholder="请输入手机号"
                             class="">
-
                     </div>
                     <div class="form-item form-code">
                         <input type="tel" name="code" maxlength="6" autocomplete="off" placeholder="请输入验证码">
@@ -37,7 +36,6 @@
                 </div>
             </div>
         </div>
-       
     </div>
 </template>
 
@@ -70,7 +68,6 @@ export default {
         background: url("static/images/register/img_download_bg.png") no-repeat center top;
         background-size: 100% auto;
 
-
         .logo {
             display: block;
             width: 23.7%;
@@ -81,7 +78,6 @@ export default {
         .logon {
             width: 91.6%;
             margin: 0.55rem auto 0.35rem;
-
 
             .form-box {
                 width: 100%;
@@ -130,7 +126,6 @@ export default {
                     height: 100%;
                     background-color: #363737;
                     font-size: 0.14rem;
-
                     border-radius: 15px;
                     padding: 0 0.16rem;
                     color: #ffffff;

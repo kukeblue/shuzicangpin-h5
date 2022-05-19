@@ -157,6 +157,7 @@ export default {
     flex-direction: column;
     align-items: center;
     background-color: rgb(255, 144, 0);
+    height: calc(100vh);
 
     .moguo {
         width: 0.4rem;
