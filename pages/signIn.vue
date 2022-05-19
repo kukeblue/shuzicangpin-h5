@@ -84,13 +84,13 @@
             <div class="taskrow">
                 <div class="task-info">
                     <div class="task-name">
-                        <p class="name">购买藏品/盲盒（每满1元）</p>
-                        <div class="moguo-block"><span class="number"> +1</span><img src="/images/signin/moguo.png"
+                        <p class="name">购买藏品/盲盒(每满1元)</p>
+                        <div class="moguo-block"><span class="number">+1</span><img src="/images/signin/moguo.png"
                                 class="moguo1"></div>
                     </div>
                     <div class="task-des">
                         <p>购买藏品/盲盒可获得与实际支付金额
-                            （小数点前整数）相同数量的魔果</p>
+                            (小数点前整数)相同数量的魔果</p>
                     </div>
                 </div>
                 <div class="task-button">
@@ -210,13 +210,13 @@ export default {
                 align-items: center;
 
                 .date {
-                    font-size: 0.4rem;
+                    font-size: 0.35rem;
                     color: rgba(67, 67, 67, 1);
                 }
 
                 .date-active {
-                    font-size: 0.4rem;
-                    font-weight: bold;
+                    font-size: 0.35rem;
+                   
                     color: rgba(204, 20, 20, 1);
                 }
 
@@ -240,7 +240,7 @@ export default {
 
                     .add-num {
                         color: rgba(187, 53, 0, 1);
-                        font-size: 0.45rem;
+                        font-size: 0.4rem;
                         font-weight: bold;
                     }
                 }
@@ -265,7 +265,7 @@ export default {
 
                     .add-num-unactive {
                         color: rgba(142, 142, 140, 1);
-                        font-size: 0.45rem;
+                        font-size: 0.4rem;
                         font-weight: bold;
                     }
                 }
@@ -284,7 +284,7 @@ export default {
             border-radius: 1rem;
 
             color: rgba(187, 53, 0, 1);
-            font-size: 0.5rem;
+            font-size: 0.4rem;
         }
 
 
@@ -303,7 +303,6 @@ export default {
 
         .taskrow {
             width: 9rem;
-          
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -315,22 +314,19 @@ export default {
                 align-items: center;
                 justify-content: center;
                 width: 2.8rem;
-                height: 1.1rem;
+                height: 0.95rem;
                 background-color: white;
                 border-style: solid;
                 border-radius: 1.5rem;
-                border-width: 0.05rem;
+                border-width: 0.03rem;
                 border-color: rgba(224, 148, 27, 1);
                 color: rgba(224, 148, 27, 1);
                 font-size: 0.45rem;
             }
-
             .task-info {
                 display: flex;
                 flex-direction: column;
                 width: 7.5rem;
-
-
                 .task-name {
                     display: flex;
                     flex-direction: row;
@@ -339,7 +335,6 @@ export default {
                         font-weight: bold;
                         font-size: 0.45rem;
                     }
-
                     .number {
                         font-size: 0.45rem;
                         color: rgba(255, 114, 0, 1);
@@ -347,31 +342,25 @@ export default {
                         margin-left: 0.1rem;
 
                     }
-
                     .moguo-block {
                         margin-top: 0.05rem;
-
                         .moguo1 {
                             width: 0.42rem;
                             height: 0.4rem;
-
                         }
-
                     }
                 }
-
                 .task-des {
                     color: rgba(147, 147, 147, 1);
                     font-size: 0.3rem;
                 }
             }
         }
-
         .underline {
             width: 9rem;
             height: 0.03rem;
             background-color: rgba(246, 246, 246, 1);
-            margin-top: 0.4rem;
+            margin-top: 0.2rem;
         }
 
         .title-row {
