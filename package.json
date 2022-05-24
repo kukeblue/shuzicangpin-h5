@@ -28,6 +28,8 @@
     "@nutui/babel-plugin-separate-import": "^1.2.2",
     "@nutui/nutui": "^2.2.11",
     "@nuxtjs/axios": "^5.12.2",
+    "@vuelidate/core": "^2.0.0-alpha.41",
+    "@vuelidate/validators": "^2.0.0-alpha.29",
     "axios": "^0.20.0",
     "form-data": "^3.0.0",
     "node-sass": "^4.13.1",
