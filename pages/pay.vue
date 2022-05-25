@@ -254,13 +254,13 @@ export default {
             }
 
             .submit {
-                width: 3rem;
+                width: 3.5rem;
                 height: 1.1rem;
                 text-align: center;
-                font-size: 0.4rem;
+                font-size: 0.45rem;
                 line-height: 0.44rem;
                 border-radius: 0.5rem;
-                color: white;
+                color: black;
                 background-color: #78EFF1;
                 border: none;
             }
