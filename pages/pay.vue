@@ -238,10 +238,10 @@ export default {
 
         .submit-row {
             position: relative;
-            top: -1.8rem;
+            top: -1.95rem;
             width: 9rem;
-            margin: 1rem 0.5rem 0 0.5rem;
-            padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+            margin: 1rem 0.5rem 1rem 0.5rem;
+            padding: 0.35rem 0.5rem 0.7rem 0.5rem;
             background-color: #292B2A;
             display: flex;
             flex-direction: row;
@@ -252,7 +252,6 @@ export default {
                 font-size: 0.5rem;
                 color: #F46464;
             }
-
             .submit {
                 width: 3.5rem;
                 height: 1.1rem;
